@@ -75,11 +75,10 @@ function toCSV(items){
 }
 
 async function main() {
-    const result = await fetchAllPages('sleep ADHD', 3, 2025, 'Harvard'); //change parameters to desired
+    const result = await fetchAllPages('example', null, null, null); //change parameters to desired
     fs.writeFileSync('results.json', JSON.stringify(result, null, 2)); //json results w json formattin
     //fs.writeFileSync('results.csv', toCSV(result)); //all in csv file flattened
-    //console.log(`Tot articles: ${result.length}`);
-    //console.log(JSON.stringify(result.slice(0, 2), null, 2));
+    //console.log(`Tot articles: ${result.length}`); //for n. of total articles
 }
 
 main();
