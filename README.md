@@ -1,6 +1,7 @@
 # Paper-search: PubMed Research Paper Search Tool
 
 A JavaScript tool to search and fetch academic papers from the Europe PMC free API.
+> This tool uses the public [Europe PMC API](https://europepmc.org/RestfulWebService) to fetch biomedical literature.
 
 ## What It Does
 
